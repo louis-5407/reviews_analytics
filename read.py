@@ -23,3 +23,10 @@ print(good[0])
 #快寫法
 good = [d for d in data if "good" in d ]
 print("包含good的留言有", len(good), "筆")
+
+bad = ["bad" in d for d in data]
+print(bad)
+
+
+
+
